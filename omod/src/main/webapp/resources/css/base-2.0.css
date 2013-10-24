@@ -1,0 +1,59 @@
+body { font-size: 12px; }
+
+#content { padding: 0px; }
+
+i { font-size: inherit; }
+
+#openmrs_msg, #openmrs_error { padding: 0.5em 0 0.5em 19px; margin: 0.75em 0; }
+
+header {
+    font-size: 16px;
+}
+
+header a, header a:link, header a:active, header a:visited, header a:hover {
+    text-decoration: none;
+}
+
+.content-header {
+    position: relative;
+    background: #F9F9F9;
+    color: black;
+    z-index: 0;
+    display: block;
+    margin: -9px -9px 0 -9px;
+    border-bottom: 2px solid #eee;
+    line-height: 3em;
+    padding-left: 0.75em;
+}
+
+form fieldset, .form fieldset {
+    width: 95%;
+    padding-bottom: 1em;
+}
+
+#menu.submenu {
+    background: #F5F5F5;
+    margin: 0 -9px 10px -9px;
+    padding: 0.75em 1em;
+    border-bottom: 2px solid #eee;
+    width: auto;
+    overflow: hidden;
+}
+
+#menu.submenu li { border: none; }
+#menu.submenu li.first { padding-left: 0; }
+#menu.submenu li a { color: white; }
+
+#pageBody i {
+    font-size: inherit;
+    padding: 0;
+}
+
+#footer {
+    display: none;
+}
+
+/* Admin page-specific */
+
+#buttonPanel { margin-top: 1em; }
+#buttonPanel > div { margin-right: 1em; }
